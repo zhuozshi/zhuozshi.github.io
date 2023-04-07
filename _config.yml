@@ -135,6 +135,7 @@ related_blog_posts:
   enabled: true
   max_related: 5
 
+'''
 # Giscus comments (RECOMMENDED)
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out
 # the information below.
@@ -150,6 +151,7 @@ giscus:
   theme: preferred_color_scheme  # name of the color scheme (preferred works well with al-folio light/dark mode)
   emit_metadata: 0
   lang: en
+'''
 
 # Disqus comments (DEPRECATED)
 disqus_shortname: al-folio # put your disqus shortname
