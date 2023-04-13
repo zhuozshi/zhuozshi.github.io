@@ -13,7 +13,7 @@
   contents:
     - title: PhD Student
       institution: University of California Los Angeles
-      year: 2023-2028
+      year: 2023 - 2028
       description:
         - Major in Bioinformatics
         #- Description 2.
@@ -24,7 +24,7 @@
             #- Sub-description 2.
     - title: Master of Science
       institution: University of Tokyo
-      year: 2021-2023
+      year: 2023
       description:
         - Major in Bioengineering
         - Focused on Stochastic Resonance Based Intelligent Systems for Analyzing Weak Biomedical Signals
@@ -32,7 +32,7 @@
 
     - title: Bachelor of Science
       institution: University of California San Diego
-      year: 2021-2023
+      year: 2020
       description:
         - Major in Computer Science
 
