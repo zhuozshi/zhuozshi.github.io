@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='http://www.bioxide.t.u-tokyo.ac.jp'>Tabata Lab</a>. University of Tokyo
+subtitle: <a href='http://www.bioxide.t.u-tokyo.ac.jp/en/'>Tabata Lab</a>. University of Tokyo
 
 profile:
   align: right
@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   address: >
     <p>Eng. Bldg. No.5 Room 550</p>
-    <p>7-chōme-3-1 Hongō, Bunkyo City</p>
+    <p>7-chōme-3-1 Hongō, Bunkyo-ku</p>
     <p>Tokyo, Japan 113-8656</p>
 
 news: true  # includes a list of news items

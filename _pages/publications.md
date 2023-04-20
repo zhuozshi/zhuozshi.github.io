@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: Publications
+title: publications
 description: Zhuozheng's works.
 years: [1956, 1956, 1950, 1935, 1905]
 nav: true
