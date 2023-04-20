@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='http://bioxide.t.u-tokyo.ac.jp'>Tabata Lab</a>. University of Tokyo
 
 profile:
   align: right
