@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <a href='http://www.bioxide.t.u-tokyo.ac.jp/en/'>Tabata Lab</a>. University of Tokyo
 
