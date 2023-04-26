@@ -76,13 +76,13 @@
   contents:
     - year: 2023
       items:
-        - <a href="https://grad.ucla.edu/asis/stusup/gradsupport.pdf">Graduate Dean's Scholar Award</a>
+        - <a href="https://grad.ucla.edu/asis/stusup/gradsupport.pdf">Graduate Dean's Scholar Award</a>, UCLA
     - year: 2021
       items:
         - School of Engineering University of Tokyo (SEUT) Grant
     - year: 2017-2020
       items:
-        - <a href="https://warren.ucsd.edu/academics/honors.html#Other-Honors-at-UCSD-">Provost Honors</a>
+        - <a href="https://warren.ucsd.edu/academics/honors.html#Other-Honors-at-UCSD-">Provost Honors</a>, UCSD
 
 - title: Academic Interests
   type: nested_list
