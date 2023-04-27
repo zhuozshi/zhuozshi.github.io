@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Take a look of my first first-author publication on Chaos, Solitons & Fractals.
+Take a look of my first [first-author publication on Chaos, Solitons & Fractals](Publications).
