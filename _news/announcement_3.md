@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I am joining [Bioinformatics PhD program at UCLA](https://bioinformatics.ucla.edu) this Fall!
+I am joining Bioinformatics PhD program at UCLA this Fall!
