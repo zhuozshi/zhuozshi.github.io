@@ -55,9 +55,9 @@
   type: list
   contents:
     - Bioinformatics
-    - Genomics, GWAS, RNA
+    #- Genomics, GWAS, RNA
     - Stochastic Resonance, Nonlinear System
-    - Machine Learning
+    #- Machine Learning
 
 - title: Other Interests
   type: list
