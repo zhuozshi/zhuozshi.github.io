@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='http://www.bioxide.t.u-tokyo.ac.jp/en/'>Tabata Lab</a>. University of Tokyo<br>Zhuo-卓-Jhuo Zheng-正-Jheng, Shi-石-Shih
+subtitle: <a href='http://www.bioxide.t.u-tokyo.ac.jp/en/'>Tabata Lab</a>. University of Tokyo<br>Zhuo-卓-Jhuo Zheng-正-Jheng, Shi-石-Shih  p.s.([Pinyin]-[Chinese Character]-[Roman])
 
 profile:
   align: right
