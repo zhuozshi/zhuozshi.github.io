@@ -6,7 +6,7 @@
     - name: Date of Birth
       value: July 1st 1999
     - name: Languages
-      value: English, Mandarin, Japanese
+      value: English (Bilingual), Mandarin (Native), Japanese (Advanced Intermediate)
 
 - title: Education
   type: time_table
@@ -27,7 +27,7 @@
       year: 2023
       description:
         - Major in Bioengineering
-        - Focused on Stochastic Resonance Based Intelligent Systems for Analyzing Weak Biomedical Signals
+        - Thesis Title: Statistical and Machine Learning Systems based on Stochastic Resonance for Analyzing Weak Electronic and Magnetic Bio-signals
 
 
     - title: Bachelor of Science
@@ -41,6 +41,9 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2023
+      items:
+        - Best Student Award of Department of Bioengineering (専攻長賞), University of Tokyo
     - year: 2023
       items:
         - <a href="https://grad.ucla.edu/asis/stusup/gradsupport.pdf">Graduate Dean's Scholar Award</a>, UCLA
