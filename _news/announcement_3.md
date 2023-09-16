@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2023-04-27 15:59:00 -0400
+date: 2023-7-1 15:59:00 -0400
 inline: true
 related_posts: false
 ---
 
-I am joining Bioinformatics PhD program at UCLA this Fall!
+Take a look of my new [first-author publication on Journal of Biomedical and Health Informatics](publications).
