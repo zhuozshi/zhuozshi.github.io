@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Take a look of my new [first-author publication on Journal of Biomedical and Health Informatics](publications).
+Take a look of my new [first-author publication on IEEE Journal of Biomedical and Health Informatics](publications).
