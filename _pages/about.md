@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='http://www.bioxide.t.u-tokyo.ac.jp/en/'>Tabata Lab</a>. University of Tokyo<br>Zhuo-卓-Jhuo Zheng-正-Jheng, Shi-石-Shih  p.s.([Pinyin]-[Chinese Character]-[Roman])
+subtitle: <a href='https://bioinformatics.ucla.edu'>Bioinformatics Interdepartmental Program</a>. University of California Los Angeles<br>Zhuo-卓-Jhuo Zheng-正-Jheng, Shi-石-Shih  p.s.([Pinyin]-[Chinese Character]-[Roman])
 
 profile:
   align: right
@@ -18,9 +18,13 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a second-year master student in [the Department of Bioengineering](https://bioeng.t.u-tokyo.ac.jp/en/), [Graduate School of Engineering](https://www.t.u-tokyo.ac.jp/en/soe), [the University of Tokyo](https://www.u-tokyo.ac.jp/en/index.html), supervised by [Professor Hitoshi Tabata](http://www.bioxide.t.u-tokyo.ac.jp/en/profile/).
+I am a fisrt-year PhD student in [Bioinformatics](https://bioinformatics.ucla.edu), University of California Los Angeles, doing rotation in [Bogdan Lab](https://bogdan.dgsom.ucla.edu/pages/).
 
-I received my B.S. degree in [Computer Science](https://cse.ucsd.edu/undergraduate/bs-computer-science) at UCSD in 2020, and I am joining [Bioinformatics PhD program](https://bioinformatics.ucla.edu) in UCLA in 2023.
+
+I received my M.S. degree in [Bioengineering](https://bioeng.t.u-tokyo.ac.jp/en/) at [the University of Tokyo](https://www.u-tokyo.ac.jp/en/index.html) in 2023, supervised by [Professor Hitoshi Tabata](http://www.bioxide.t.u-tokyo.ac.jp/en/profile/). I completed my B.S. degree in [Computer Science](https://cse.ucsd.edu/undergraduate/bs-computer-science) at UCSD in 2020.
+
+
+
 
 
 
