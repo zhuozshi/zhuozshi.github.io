@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://bioinformatics.ucla.edu'>Bioinformatics Interdepartmental Program</a>. University of California Los Angeles<br><sub>Zhuo</sub>卓<sup>Jhuo</sup> <sub>Zheng</sub>正<sup>Jheng</sup>, <sub>SHI</sub>石<sup>SHIH</sup>  <br>Usage (<sub>[English]</sub>[Chinese Character]<sup>[Roman]</sup>). <a href='https://en.wikipedia.org/wiki/Romanization'>Also see</a>.
+subtitle: <a href='https://bioinformatics.ucla.edu'>Bioinformatics Interdepartmental Program</a>. University of California Los Angeles<br><sub>Zhuo</sub>卓<sup>Jhuo</sup> <sub>Zheng</sub>正<sup>Jheng</sup>, <sub>SHI</sub>石<sup>SHIH</sup>  <br>Usage (<sub>[Pinyin]</sub>[Chinese Character]<sup>[Roman]</sup>). Also see <a href='https://en.wikipedia.org/wiki/Pinyin'>Pinyin</a> and <a href='https://en.wikipedia.org/wiki/Romanization'>Romanization</a>.
 
 profile:
   align: right
