@@ -9,9 +9,10 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>Eng. Bldg. No.5 Room 550</p>
-    <p>7-chōme-3-1 Hongō, Bunkyo-ku</p>
-    <p>Tokyo, Japan 113-8656</p>
+    <p>Department of Pathology & Laboratory Medicine</p>
+    <p>Geffen School of Medicine at UCLA</p>
+    <p>10833 Le Conte Ave, CHS 33-365</p>
+    <p>Los Angeles, CA 90024</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
