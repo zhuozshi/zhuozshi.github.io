@@ -23,7 +23,7 @@ I am a fisrt-year PhD student in [Bioinformatics](https://bioinformatics.ucla.ed
 
 
 
-I received my M.S. degree in [Bioengineering](https://bioeng.t.u-tokyo.ac.jp/en/) at [University of Tokyo](https://www.u-tokyo.ac.jp/en/index.html) in 2023, supervised by [Dr. Hitoshi Tabata](http://www.bioxide.t.u-tokyo.ac.jp/en/profile/). I completed my B.S. degree in [Computer Science](https://cse.ucsd.edu/undergraduate/bs-computer-science) at UCSD in 2020.
+I received my M.S. degree in [Bioengineering](https://bioeng.t.u-tokyo.ac.jp/en/) at [University of Tokyo](https://www.u-tokyo.ac.jp/en/index.html) in 2023, supervised by [Dr. Hitoshi Tabata](http://www.bioxide.t.u-tokyo.ac.jp/en/profile/). I completed my B.S. degree in [Computer Science](https://cse.ucsd.edu/undergraduate/bs-computer-science) at [UCSD](https://ucsd.edu) in 2020.
 
 
 
