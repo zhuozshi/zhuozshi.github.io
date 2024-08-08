@@ -12,6 +12,12 @@
   type: time_table
   contents:
     - title: PhD Student
+      institution: University of Pennsylvania
+      year: 2024 - 2028
+      description:
+        - Major in Genomics and Computational Biology
+
+    - title: PhD Student
       institution: University of California Los Angeles
       year: 2023 - 2024
       description:
@@ -58,11 +64,11 @@
   type: list
   contents:
     - Bioinformatics
-    - Genomics, GWAS, RNA, Population Genetics
+    - Statistical Genetics, Population Genetics
     - Stochastic Resonance, Nonlinear System
     - Machine Learning
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hiking, Camping, Alpine Climbing, and Bodybuilding
+    - <u>Hobbies:</u> Hiking, Camping, Thru Hiking, and Bodybuilding

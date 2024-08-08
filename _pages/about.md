@@ -2,28 +2,27 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://bioinformatics.ucla.edu'>Bioinformatics PhD Program</a>. University of California Los Angeles<br><sub>Zhuo</sub>卓<sup>Jhuo</sup> <sub>Zheng</sub>正<sup>Jheng</sup>, <sub>SHI</sub>石<sup>SHIH</sup>  <br>Speak the Roman for Pronunciation (<sub>[Pinyin]</sub>[Chinese Character]<sup>[Roman]</sup>). Also see <a href='https://en.wikipedia.org/wiki/Pinyin'>Pinyin</a> and <a href='https://en.wikipedia.org/wiki/Romanization'>Romanization</a>.
+subtitle: <a href='https://bioinformatics.ucla.edu'>Geneomics & CompBio PhD Program</a>. University of Pennsylvania<br><sub>Zhuo</sub>卓<sup>Jhuo</sup> <sub>Zheng</sub>正<sup>Jheng</sup>, <sub>SHI</sub>石<sup>SHIH</sup>  <br>Speak the Roman for Pronunciation (<sub>[Pinyin]</sub>[Chinese Character]<sup>[Roman]</sup>). Also see <a href='https://en.wikipedia.org/wiki/Pinyin'>Pinyin</a> and <a href='https://en.wikipedia.org/wiki/Romanization'>Romanization</a>.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>Department of Pathology & Laboratory Medicine</p>
-    <p>Geffen School of Medicine at UCLA</p>
-    <p>10833 Le Conte Ave, CHS 33-365</p>
-    <p>Los Angeles, CA 90024</p>
+    <p>A301 Richards Building</p>
+    <p>3700 Hamilton Walk</p>
+    <p>Philadelphia, PA, 19104</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a fisrt-year PhD student in [Bioinformatics](https://bioinformatics.ucla.edu), University of California Los Angeles. <!-- , currently rotating in [Bogdan Lab](https://bogdan.dgsom.ucla.edu/pages/)-->
+I am a second-year PhD student in [Genomics & CompBio](https://www.med.upenn.edu/gcb/), University of Pennsylvania, mentored by Dr. Bogdan Pasaniuc.
 
 
 
-I received my M.S. degree in [Bioengineering](https://bioeng.t.u-tokyo.ac.jp/en/) at [University of Tokyo](https://www.u-tokyo.ac.jp/en/index.html) in 2023, supervised by [Dr. Hitoshi Tabata](http://www.bioxide.t.u-tokyo.ac.jp/en/profile/). I completed my B.S. degree in [Computer Science](https://cse.ucsd.edu/undergraduate/bs-computer-science) at [UCSD](https://ucsd.edu) in 2020.
+I received my M.S. degree in [Bioengineering](https://bioeng.t.u-tokyo.ac.jp/en/) at the [University of Tokyo](https://www.u-tokyo.ac.jp/en/index.html) in 2023, supervised by [Dr. Hitoshi Tabata](http://www.bioxide.t.u-tokyo.ac.jp/en/profile/). I completed my B.S. degree in [Computer Science](https://cse.ucsd.edu/undergraduate/bs-computer-science) at [UCSD](https://ucsd.edu) in 2020.
 
 
 
