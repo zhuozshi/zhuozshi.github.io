@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://www.med.upenn.edu/gcb/'>Geneomics & CompBio PhD Program</a>. University of Pennsylvania<br><sub>SHI</sub>石<sup>SHIH</sup>,   <sub>Zhuo</sub>卓<sup>Jhuo</sup> <sub>Zheng</sub>正<sup>Jheng</sup>  <br>Use Roman for Pronunciation (<sub>[Pinyin]</sub>[Chinese Character]<sup>[Roman]</sup>). Also see <a href='https://en.wikipedia.org/wiki/Pinyin'>Pinyin</a> and <a href='https://en.wikipedia.org/wiki/Romanization'>Romanization</a>.
+subtitle: <a href='https://www.med.upenn.edu/gcb/'>Geneomics & CompBio PhD Program</a>. University of Pennsylvania<br><sub>SHI</sub>石<sup>SHIH</sup>, &ensp <sub>Zhuo</sub>卓<sup>Jhuo</sup> <sub>Zheng</sub>正<sup>Jheng</sup>  <br>Use Roman for Pronunciation (<sub>[Pinyin]</sub>[Chinese Character]<sup>[Roman]</sup>). Also see <a href='https://en.wikipedia.org/wiki/Pinyin'>Pinyin</a> and <a href='https://en.wikipedia.org/wiki/Romanization'>Romanization</a>.
 
 profile:
   align: right
