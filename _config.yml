@@ -104,7 +104,7 @@ youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 discord_id: # your discord id (18-digit unique numerical identifier)
 
 contact_note: >
-  Send me an email if you are interested or have any questions!
+  Send me an email if you are interested in collaboration!
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -174,7 +174,7 @@ collections:
     permalink: /projects/:path/
 
 news_scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-news_limit: 100 # leave blank to include all the news in the `_news` folder
+news_limit: 5 # leave blank to include all the news in the `_news` folder
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
