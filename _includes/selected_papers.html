@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+
+<style>
+
+    body {
+        margin:0px;
+    }
+
+    .content {
+        padding-left:8px;
+    }
+
+    .title {
+        background-color:rgb(200,200,255);
+        margin:0px;
+        margin-bottom:10px;
+        padding:20px;
+    }
+
+    .section {
+        background-color:rgb(200,200,200);
+        padding: 5px;
+        margin-top: 5px;
+        padding-left:15px;
+    }
+
+    .variableInputDiv {
+        padding-bottom:0px;
+    }
+
+    .variableDescriptionBox {
+        margin-bottom:0px;
+        margin-top:0px;
+        font-size:large;
+    }
+
+    .variableTitle {
+        font-size:larger;
+    }
+
+    .calculateButton {
+        margin:10px;
+        margin-top:0px;
+        background-color:rgb(200,200,255);
+        padding:8px;
+        padding-left:25px;
+        padding-right:25px;
+        font-size:larger;
+    }
+
+    .outNoNumber {
+        padding:5px;
+        margin:0px;
+        margin-left:10px;
+        display:inline-block;
+    }
+
+    .outWithNumber {
+        font-size:xx-large;
+        background-color:rgb(100,0,0);
+        color:white;
+    }
+
+    .numberInput {
+        margin-top:3px;
+        padding:5px;
+        border:0px;
+    }
+
+    .infoContainer {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    .infoIcon {
+        font-size: 18px;
+        background-color: rgb(200,200,255);
+        border-radius: 50%;
+        border-style: solid;
+        border-width: 1px;
+        border-color: black;
+        width: 20px;
+        height: 20px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+    }
+
+    .infoBox {
+        display: none;
+        width: 700px;
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        font-size:smaller;
+        padding: 8px;
+        border-radius: 5px;
+        position: absolute;
+        z-index: 1;
+        bottom: 125%;
+        left: 50%;
+        transform: translate(10px, 75%);
+    }
+    .infoBox a, a:link, a:visited {
+        color: rgb(200,200,255);
+    }
+
+    #donorT2dprsInfoContainer:hover #donorT2dprsInfoBox {
+        display: block;
+    }
+
+    #recipientT2dprsInfoContainer:hover #recipientT2dprsInfoBox {
+        display: block;
+    }
+
+    .footnote {
+        font-size: medium;
+    }
+
+</style>
+
+<body>
+
+    <h1 class="title">Post Transplant Diabetes Mellitus (PTDM) Risk Calculator for Liver Transplant Recipients</h1>
+
+    <div class="content">
+
+        <p style="margin-left:20px;font-size:larger">This calculator is to estimate the risk of new onset diabetes within first year post transplant among liver transplant recipients who had no past medical history of diabetes before transplant.</p>
+
+        <div class="section">
+
+            <br>
+            <div class="variableInputDiv">
+                <span class="variableDescriptionBox">
+                    <strong class="variableTitle">Recipient T2D-PRS</strong><br>
+                    Recipient's T2D-PRS, z-score 
+                    <span class="infoContainer" id="recipientT2dprsInfoContainer">
+                        <span class="infoIcon">i</span>
+                        <span class="infoBox" id="recipientT2dprsInfoBox">
+                            Assuming S<sub>i</sub> is the summary statistic for the effective allele for the i<sup>th</sup> SNP and G<sub>ij</sub> is the number of the effective allele of the i<sup>th</sup> SNP observed in the j<sup>th</sup> individual, PRS for the j<sup>th</sup> individual (PRS<sub>j</sub>) can be calculated as
+                            $$PRS_{j}=\sum_{i}S_{i}\times G_{ij}$$
+                            For the T2D-PRS, summary statistics for the top 403 GWAS-significant SNPs were obtained from <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6287706/">this source</a>. Of these 403 SNPs, 361 passed the quality control (QC) criteria in our liver transplant study cohorts, which included an imputation info score > 0.8, a minor allele frequency > 0.01, and a Hardy-Weinberg Equilibrium (HWE) P-value > 1E-6. These 361 SNPs were used in the T2D-PRS calculations.<br>
+                            The T2D-PRS can be calculated for both donors and recipients using the PRSice software (available <a href="https://choishingwan.github.io/PRSice/">here</a>), with SNP genotype data and SNP summary statistics, as outlined in the formula above. The T2D-PRS z-score, which serves as the required input for this calculator, can then be derived by standardizing the T2D-PRS using a population mean of 19.75 and a standard deviation (SD) of 0.724.<br><br>
+                            For more details, please see notes at the bottom of the page.
+                        </span>
+                    </span>
+                </span><br>
+                <input class="numberInput" type="number" id="a">
+            </div>
+
+            <br>
+            <div class="variableInputDiv">
+                <span class="variableDescriptionBox">
+                    <strong class="variableTitle">Donor T2D-PRS</strong><br>
+                    Donor's T2D-PRS, z-score
+                    <span class="infoContainer" id="donorT2dprsInfoContainer">
+                        <span class="infoIcon">i</span>
+                        <span class="infoBox" id="donorT2dprsInfoBox">
+                            Assuming S<sub>i</sub> is the summary statistic for the effective allele for the i<sup>th</sup> SNP and G<sub>ij</sub> is the number of the effective allele of the i<sup>th</sup> SNP observed in the j<sup>th</sup> individual, PRS for the j<sup>th</sup> individual (PRS<sub>j</sub>) can be calculated as
+                            $$PRS_{j}=\sum_{i}S_{i}\times G_{ij}$$
+                            For the T2D-PRS, summary statistics for the top 403 GWAS-significant SNPs were obtained from <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6287706/">this source</a>. Of these 403 SNPs, 361 passed the quality control (QC) criteria in our liver transplant study cohorts, which included an imputation info score > 0.8, a minor allele frequency > 0.01, and a Hardy-Weinberg Equilibrium (HWE) P-value > 1E-6. These 361 SNPs were used in the T2D-PRS calculations.<br>
+                            The T2D-PRS can be calculated for both donors and recipients using the PRSice software (available <a href="https://choishingwan.github.io/PRSice/">here</a>), with SNP genotype data and SNP summary statistics, as outlined in the formula above. The T2D-PRS z-score, which serves as the required input for this calculator, can then be derived by standardizing the T2D-PRS using a population mean of 19.75 and a standard deviation (SD) of 0.724.<br><br>
+                            For more details, please see notes at the bottom of the page.
+                        </span>
+                    </span>
+                </span><br>
+                <input class="numberInput" type="number" id="b">
+            </div>
+
+            <br>
+            <div class="variableInputDiv">
+                <p class="variableDescriptionBox">
+                    <strong class="variableTitle">Recipient Age</strong><br>
+                    Recipient's age at transplant
+                </p>
+                <input class="numberInput" type="number" id="c">
+            </div>
+
+            <br>
+            <div class="variableInputDiv">
+                <p class="variableDescriptionBox">
+                    <strong class="variableTitle">Recipient BMI</strong><br>
+                    Recipient's body mass index (BMI) at transplant
+                </p>
+                <input class="numberInput" type="number" id="d">
+            </div>
+
+            <br>
+            <div class="variableInputDiv">
+                <p class="variableDescriptionBox">
+                    <strong class="variableTitle">Recipient Sex</strong><br>
+                </p>
+                <select id="e" style="font-size:large">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+
+            <br>
+        </div>
+        <br>
+
+        <button class="calculateButton" onclick="calculate()">Calculate</button>
+        <br>
+
+        <div class="section">
+            <h2>Probability of PTDM within first year post-transplant</h2>
+            <p id="out" class="outNoNumber">% PTDM Risk</p>
+            <br><br>
+        </div>
+
+        <p class="footnote">This calculator is for research only.</p>
+        <p class="footnote">A z-score quantifies how far a specific value deviates from the average (mean) of a group, measured in terms of standard deviations, which indicates the spread of the data. A positive z-score signifies that the value is above the average, a negative z-score indicates it is below average, and a z-score of 0 means the value is equal to the average. In our PTDM study cohort, the average T2D-PRS is 19.75, with a standard deviation (SD) of 0.724. The z-scores for T2D-PRS in this cohort range from approximately -4 to 4, indicating that some donors or recipients have T2D-PRS scores that are four standard deviations above or below the mean. In other cohorts or future recruitment of recipients and donors, T2D-PRS z-scores could potentially fall well outside this range, such as 10 or -10. However, it's important to note that these extreme values were not tested in our prediction model and may not exhibit the same behavior as scores closer to the average.</p>
+        <p class="footnote"><a href="https://www.nature.com/articles/s41591-022-01758-7" style="color:black">Reference: Shaked A, Loza BL, Van Loon E, Olthoff KM, Guan W, Jacobson PA, Zhu A, Fishman CE, Gao H, Oetting WS, Israni AK, Testa G, Trotter J, Klintmalm G, Naesens M, Asrani SK, Keating BJ. Donor and recipient polygenic risk scores influence the risk of post-transplant diabetes. Nat Med. 2022 May;28(5):999-1005. doi: 10.1038/s41591-022-01758-7. Epub 2022 Apr 7. PMID: 35393535.</a></p>
+
+    </div>
+</body>
+
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.0.1/es5/tex-mml-chtml.js"></script>
+
+<script>
+
+    function calculate() {
+
+        var a = document.getElementById("a").value
+        var b = document.getElementById("b").value
+        var c = document.getElementById("c").value
+        var d = document.getElementById("d").value
+        var e = document.getElementById("e").value
+        if (e == "male") {
+            e = 0
+        } else {
+            e = 1
+        }
+
+        var score = -1.38276124102887 + 0.371218478472422*a + 0.135754670723044*b + 0.0102444592119273*c + 0.0346774231385289*d -0.460225365888594*e
+        var out = 1.0 / (1 + Math.pow(Math.E, -score))
+
+        if (a == "" || b == "" | c == "" || d == "") {
+            out = NaN
+        }
+
+        var outElement = document.getElementById("out")
+        if (isNaN(out)) {
+            outElement.innerText = "Error while calculating; ensure inputs are correctly formatted"
+            outElement.setAttribute("class", outElement.getAttribute("class") + " outNoNumber")
+        } else {
+            outElement.innerText = Math.floor(out*100) + "%"
+            outElement.setAttribute("class", outElement.getAttribute("class") + " outWithNumber")
+        }
+        outElement.scrollIntoView({behavior: "smooth"})
+
+    }
+
+    recipientT2dprsInfoBox = element.getElementById("recipientT2dprsInfoBox")
+    recipientT2dprsInfoBox.addEventListener("touchstart", () => {
+        recipientT2dprsInfoBox.display = "block"
+    })
+    recipientT2dprsInfoBox.addEventListener("touchend", () => {
+        recipientT2dprsInfoBox.display = "relative"
+    })
+
+    donorT2dprsInfoBox = element.getElementById("recipientT2dprsInfoBox")
+    donorT2dprsInfoBox.addEventListener("touchstart", () => {
+        donorT2dprsInfoBox.display = "block"
+    })
+    donorT2dprsInfoBox.addEventListener("touchend", () => {
+        donorT2dprsInfoBox.display = "relative"
+    })
+
+</script>
