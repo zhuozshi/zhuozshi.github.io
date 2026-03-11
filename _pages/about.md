@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://www.med.upenn.edu/gcb/'>Geneomics & CompBio PhD Program</a>. University of Pennsylvania<br> Zhuozheng Shi (石， 卓正)  
+subtitle: <a href='https://www.med.upenn.edu/gcb/'>Geneomics & CompBio PhD Program</a>. University of Pennsylvania
 
 profile:
   align: right
